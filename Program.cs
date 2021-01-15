@@ -1,7 +1,10 @@
 ﻿using System;
+using GoFDesignPattern.Adapter.InheritancePattern;
 using GoFDesinPattern.Iterator;
 
-namespace GoFDesinPattern
+
+// Iteratorパターン
+/*namespace GoFDesinPattern
 {
     class Program
     {
@@ -19,6 +22,20 @@ namespace GoFDesinPattern
                 Book book = (Book)it.Next();
                 Console.WriteLine(book.GetName());
             }
+        }
+    }
+}*/
+
+// Adapterパターン
+namespace GoFDesinPattern
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IPrint p = new PrintBanner("Hello");
+            p.PrintWeak();
+            p.PrintStrong();
         }
     }
 }
