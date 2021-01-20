@@ -10,5 +10,7 @@
     <Folder Include="Adapter\" />
     <Folder Include="Adapter\InheritancePattern\" />
     <Folder Include="Adapter\TransferPattern\" />
+    <Folder Include="TemplateMethod\" />
+    <Folder Include="FactoryMethod\" />
   </ItemGroup>
 </Project>
