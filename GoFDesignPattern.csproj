@@ -12,5 +12,9 @@
     <Folder Include="Adapter\TransferPattern\" />
     <Folder Include="TemplateMethod\" />
     <Folder Include="FactoryMethod\" />
+    <Folder Include="Composite\" />
+    <Folder Include="Singleton\" />
+    <Folder Include="Prototype\" />
+    <Folder Include="Builder\" />
   </ItemGroup>
 </Project>
